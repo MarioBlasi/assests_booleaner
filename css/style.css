@@ -1,3 +1,10 @@
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    overflow-x: hidden;
+  }
 /*HEADER*/
 header{
     background-image: url(/img/pattern.png);
@@ -39,4 +46,11 @@ header{
     font-size: 10px;
     margin-top: -2px;
     line-height:1ex;
+}
+
+/*FOOTER*/
+
+.lorem_white{
+    color: white;
+    position: absolute;
 }
