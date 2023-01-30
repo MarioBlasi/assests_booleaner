@@ -1,4 +1,12 @@
 
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    overflow-x: hidden;
+}
+
 header{
     background-image: url(/img/pattern.png);
     background-size:20%;
@@ -23,4 +31,20 @@ header{
     top: 20%;
     left: 11%;
     font-family: 'Courier New', Courier, monospace;
+}
+
+#big_title{
+}
+
+#writer{
+    position: absolute;
+    top: 15%;
+}
+#date{
+    font-size:x-small;
+}
+.text{
+    font-size: 10px;
+    margin-top: -2px;
+    line-height:1ex;
 }
