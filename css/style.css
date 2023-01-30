@@ -1,10 +1,10 @@
 body {
-    min-height: 100vh;
-    font-size: 100%;
-    line-height: 1.5;
-    text-rendering: optimizeSpeed;
-    overflow-x: hidden;
+    margin: auto;
+    width: auto;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
   }
+
 /*HEADER*/
 header{
     background-image: url(/img/pattern.png);
@@ -12,69 +12,62 @@ header{
     background-color: rgb(89, 155, 231);
     width: auto;
     height: 100px;
-    position: relative;
 }
 
-#title {
-    color: aliceblue;
-    position: absolute;
-    top: 15%;
-    left: 10%;
-    font-size:40px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#small_title{
-    color: aliceblue;
-    position: absolute;
-    top: 20%;
-    left: 11%;
-    font-family: 'Courier New', Courier, monospace;
+#booleaner{
+    margin-left: 10px;
+    width: 200px;
+    margin-top: 2%;
 }
 
 /*NAV*/
 #big_title{
+    font-size:xx-large;
+    line-height: 0;
 }
 
 #writer{
-    position: absolute;
-    top: 15%;
+    color: rgb(177, 177, 177);
+    line-height: 0;
+}
+#name{
+    color: rgb(109, 199, 238);
 }
 #date{
-    font-size:x-small;
+    font-size:small;
+    color: rgb(177, 177, 177);
+    line-height: 0;
 }
+
+/*MAIN*/
 .text{
-    font-size: 10px;
+    font-size: 12px;
     margin-top: -2px;
     line-height:1ex;
 }
 
-/*MAIN*/
-
-
 table{
     text-align: left;
-
 }
 
 thead{
-    background-color: rgb(24, 43, 214);  
+    background-color: rgb(26, 170, 230); 
+    color: white;
     
 }
-tbody{
+.container , .container_end{
+    background-color: rgb(178, 230, 242);
+    line-height: 3;
+}
+.container_one{
     background-color: white;
+    line-height: 3;
 }
-tfoot{
-    background-color: aqua;
-}
-
-
-
-
-
-
 
 /*FOOTER*/
+.end{
+    color: rgb(177, 177, 177);
+}
 
 .lorem_white{
     color: white;
