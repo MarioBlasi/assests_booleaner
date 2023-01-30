@@ -1,12 +1,4 @@
-
-body {
-    min-height: 100vh;
-    font-size: 100%;
-    line-height: 1.5;
-    text-rendering: optimizeSpeed;
-    overflow-x: hidden;
-}
-
+/*HEADER*/
 header{
     background-image: url(/img/pattern.png);
     background-size:20%;
@@ -32,7 +24,7 @@ header{
     left: 11%;
     font-family: 'Courier New', Courier, monospace;
 }
-
+/*NAV*/
 #big_title{
 }
 
